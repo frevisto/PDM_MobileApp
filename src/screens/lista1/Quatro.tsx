@@ -7,20 +7,20 @@ export default function Quatro() {
       <StatusBar hidden />
       <View style={styles.top}>
         <View style={styles.left}>
-          <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+          <Image source={require("./adaptive-icon.png")} style={styles.img} />
         </View>
         <View style={styles.right}>
           <View style={styles.rightop}>
-            <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+            <Image source={require("./adaptive-icon.png")} style={styles.img} />
           </View>
           <View style={styles.rightbottom}>
-            <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+            <Image source={require("./adaptive-icon.png")} style={styles.img} />
           </View>
         </View>
       </View>
 
       <View style={styles.bottom}>
-        <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+        <Image source={require("./adaptive-icon.png")} style={styles.img} />
       </View>
     </View>
   );

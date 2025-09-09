@@ -15,18 +15,18 @@ export default function Cinco() {
       <View style={styles.top}>
         <View style={styles.left}>
           <TouchableOpacity onPress={() => Alert.alert("Boa noite!")}>
-            <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+            <Image source={require("./adaptive-icon.png")} style={styles.img} />
           </TouchableOpacity>
         </View>
         <View style={styles.right}>
           <View style={styles.rightop}>
             <TouchableOpacity onPress={() => Alert.alert("Boa noite!")}>
-            <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+            <Image source={require("./adaptive-icon.png")} style={styles.img} />
           </TouchableOpacity>
           </View>
           <View style={styles.rightbottom}>
             <TouchableOpacity onPress={() => Alert.alert("Boa noite!")}>
-              <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+              <Image source={require("./adaptive-icon.png")} style={styles.img} />
             </TouchableOpacity>
           </View>
         </View>
@@ -34,7 +34,7 @@ export default function Cinco() {
 
       <View style={styles.bottom}>
         <TouchableOpacity onPress={() => Alert.alert("Boa noite!")}>
-          <Image source={require("../assets/adaptive-icon.png")} style={styles.img} />
+          <Image source={require("./adaptive-icon.png")} style={styles.img} />
         </TouchableOpacity>
       </View>
     </View>
